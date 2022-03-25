@@ -1,0 +1,70 @@
+  
+  @keyframes slidein {
+	0% {
+	  transform: translateX(500px) scale(.2);
+	}
+
+	100% {
+	  transform: translateX(0) scale(1);
+	}
+  }
+  
+  @keyframes slideup {
+	0% {
+	  transform: translateY(300px);
+	}
+
+	100% {
+	  transform: translateY(0);
+	}
+  }
+  
+  @keyframes expand {
+	0% {
+	  transform: translateX(1800px);
+	}
+
+	20% {
+		transform: translateX(1800px);
+	  }
+
+	100% {
+	  transform: translateX(0);
+		}
+  }
+    @keyframes circulo {
+	50% {
+		width: 400px; border-radius: 50%;
+	}
+	
+	100% {
+		width: 400px; height: 400px; overflow: visible; border-radius: 50%;
+	}
+  }
+  @keyframes bounceIn {
+	0% {
+	  transform: scale(0.1);
+	  opacity: 0;
+	}
+	50% {
+		transform: scale(0.1);
+		opacity: 0;
+	  }
+	60% {
+	  transform: scale(1.2);
+	  opacity: 1;
+	}
+	100% {
+	  transform: scale(1);
+	}
+  }
+
+  @keyframes faceIn {
+	0% {
+	  transform: translateX(500px) scale(.2);
+	}
+
+	100% {
+	  transform: translateX(0) scale(1);
+	}
+  }
